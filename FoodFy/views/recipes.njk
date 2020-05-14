@@ -1,0 +1,40 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<section class="cards">
+
+  {%for item in items %}
+
+  <div class="card" id="{{item.id}}">
+    <div class="card__image">
+      <img src="{{item.image}}" alt="{{item.title}}">
+    </div>
+    <div class="card-title">
+      <h1>{{item.title}}</h1>
+    </div>
+    <div class="card-author">
+      <p>{{item.author}}</p>
+    </div>
+
+  </div>
+
+  {% endfor %}
+
+</section>
+
+<div class="modal-overlay">
+  <div class="modal">
+    <div class="modal-content">
+      <img src="" alt="">
+      <p class="modal-title"></p>
+      <p class="modal-author"></p>
+      <p class="modal-test"></p>
+      <a class="close-modal">Fechar modal</a>
+    </div>
+  </div>
+</div>
+
+<script src="/scripts.js"></script>
+
+{% endblock %}

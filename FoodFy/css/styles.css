@@ -222,3 +222,59 @@ p.modal-author{
   opacity: 1;
   visibility: visible;
 }
+
+/* ----- RECIPE DETAIL ----- */
+
+.card-image.detail img{
+  border-radius: 15px;
+}
+
+.card-title_detail h1{
+padding-top: 50px;
+}
+
+.card-title_detail h1,
+.card-author.detail{
+  text-align: center;
+}
+
+.card-ingredients.detail{
+  padding-top: 50px;
+}
+
+.card-ingredients.detail ul {
+  padding-top: 20px;
+}
+
+.card-ingredients.detail ul li{ 
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+  }
+
+.card-preparation.detail{
+  padding-top: 39px;
+}
+
+.card-preparation.detail ul {
+  padding-top: 20px;
+}
+
+.card-preparation.detail ul li{ 
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+}
+
+.card-information.detail{
+  padding-top: 47px;
+}
+
+.card-information.detail p{
+  padding-top: 20px;
+  font-size: 18px;
+  color: #444444;
+  line-height: 28px;
+}
