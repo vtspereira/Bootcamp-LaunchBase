@@ -142,7 +142,7 @@ header {
 
 /* --- Form --- */
 
-input {
+input,select {
     width: 100%;
     outline: none;
     color: #555;
@@ -190,7 +190,7 @@ a.button {
     display: block;
     padding: 40px;
     box-sizing: border-box;
-    border-radius: 0px;
+    border-radius: 15px;
 }
 
 .table-container table {
@@ -210,6 +210,8 @@ a.button {
     font-size: 12px;
     border-radius: 4px;
     margin-left: 13px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 

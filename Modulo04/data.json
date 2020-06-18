@@ -1,4 +1,28 @@
 {
+  "members": [
+    {
+      "id": "1",
+      "avatar_url": "https://scontent.fbfh14-1.fna.fbcdn.net/v/t1.0-9/97070021_2967615193354586_8743399279634153472_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=WWOUEdh8uAEAX_Mo6A-&_nc_ht=scontent.fbfh14-1.fna&oh=0a3146ac6c5e9f246b89f45efaec73b3&oe=5EF5BC2F",
+      "name": "Vitor",
+      "email": "vtspereira@hotmail.com",
+      "birth": 953942400000,
+      "gender": "M",
+      "blood": "O+",
+      "weight": "65",
+      "height": "182"
+    },
+    {
+      "id": "11",
+      "avatar_url": "https://images.unsplash.com/photo-1514846326710-096e4a8035e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "name": "Manu",
+      "email": "manu@gmail.com",
+      "birth": 950572800000,
+      "gender": "F",
+      "blood": "AB-",
+      "weight": "62",
+      "height": "159"
+    }
+  ],
   "instructors": [
     {
       "id": 1,
@@ -10,10 +34,10 @@
       "services": "Crossfit"
     },
     {
-      "id": 2,
+      "id": "2",
       "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
       "name": "Vitor ",
-      "birth": 1590710400000,
+      "birth": 833328000000,
       "created_at": 1590779417159,
       "gender": "M",
       "services": "Musculação, Crossfit, Natação"
