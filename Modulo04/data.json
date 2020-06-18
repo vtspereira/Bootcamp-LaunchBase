@@ -1,13 +1,13 @@
 {
   "instructors": [
     {
-      "id": "1",
+      "id": 1,
       "avatar_url": "https://images.unsplash.com/photo-1568967729548-e3dbad3d37e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
       "name": "Giovana",
       "birth": 832118400000,
       "created_at": 1590778845085,
       "gender": "F",
-      "services": "musculação, crossfit"
+      "services": "Crossfit"
     },
     {
       "id": 2,
@@ -16,10 +16,10 @@
       "birth": 1590710400000,
       "created_at": 1590779417159,
       "gender": "M",
-      "services": "musculação, crossfit, natação"
+      "services": "Musculação, Crossfit, Natação"
     },
     {
-      "id": "3",
+      "id": 3,
       "avatar_url": "https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80",
       "name": "Rafaela",
       "birth": 943833600000,

@@ -4,24 +4,37 @@
 
     <div class="card table-container">
         <table width="100%">
+            <a href="/instructors/create" class="createInstructor">Novo</a>
             <thead>
                 <tr>
                     <th>Instructor</th>
                     <th>Atendimento</th>
-                    <th>Ação</th>
+                    <th>Editar</th>
+                    <th>Excluir</th>
                 </tr>
             </thead>
-
             <tbody>
-            {% for instructor in instructors %}
-                <tr>
-                <td>
-                    <span style="background-image: url({{ instructor.avatar_url }})"></span>
-                    {{instructor.name}}
-                    </td>
-                    <td>{{instructor.services}}</td>
-                    <td><a href="/instructors/{{ instructor.id }}">Ver</a></td>
-                </tr>
+                {% for instructor in instructors %}
+                    <tr>
+                        <td>
+                            <span style="background-image: url({{ instructor.avatar_url }})"></span>
+                            {{instructor.name}}
+                        </td>
+                        <td>{{instructor.services}}</td>
+                        <td>
+                            <a href="/instructors/{{ instructor.id }}">
+                                <img src="https://img.icons8.com/fluent/48/000000/edit.png"/>
+                            </a>
+                        </td>
+                        <form id="form-delete" action="/instructors?_method=DELETE" method="post">
+                            <td>
+                                <input type="hidden" name="id" value={{instructor.id}}>
+                                <button style="cursor: pointer">
+                                    <img src="https://img.icons8.com/fluent/48/000000/delete-sign.png"/>
+                                </button>
+                            </td>
+                        </form>
+                    </tr>
                 {% endfor %}
             </tbody>
         </table>

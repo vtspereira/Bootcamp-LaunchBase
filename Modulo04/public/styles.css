@@ -201,6 +201,18 @@ a.button {
     text-align: left;
 }
 
+.createInstructor {
+    background-color: var(--primary-color);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 13px;
+}
+
+
 td, th {
     padding: 16px;
     border-bottom: 1px solid #d9d9d9;
@@ -242,15 +254,14 @@ tbody tr td:first-child span:hover{
     height: 150px;
 }
 
-tbody tr td:last-child a {
-    background-color: var(--primary-color);
-    padding: 8px 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-size: 12px;
-    border-radius: 4px;
+tbody tr td img {
+    width: 30px;
+    height: 30px;
 }
+
+tbody tr td:last-child button {
+    background-color: transparent;
+} 
 
 .table-container  thead tr th:last-child,
 td:last-child {
